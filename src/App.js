@@ -12,7 +12,7 @@ function App() {
     <RecipesState>
       <Router>
         <Nav />
-        <Route exact path="/" component={Hero} />
+        <Route exact path="/recipe-app" component={Hero} />
         <Route path="/recipes/:recipeId" component={FullRecipe} />
       </Router>
     </RecipesState>
